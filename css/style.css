@@ -440,14 +440,13 @@ header nav ul li a:hover {
   justify-content: flex-start;
   gap: 10px;
   height: 300px;
-  color: transparent;
+  color: var(--accent-color);
   transition: all 0.5s var(--transition-cubic);
 }
 .card.hover {
   cursor: pointer;
-  color: var(--accent-color);
   box-shadow: var(--box-shadow-card);
-  transform: scale(1.25);
+  transform: scale(1.05);
 }
 .card img {
   object-fit: cover;
